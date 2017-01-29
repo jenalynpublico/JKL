@@ -1,0 +1,34 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jorkon.jkl.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SYLPAULJOYCE"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:text="Products"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnProducts"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="70dp"
+        android:elevation="24dp" />
+
+    <Button
+        android:text="Go live"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnGoLive"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="230dp"
+        android:elevation="23dp" />
+
+</FrameLayout>
